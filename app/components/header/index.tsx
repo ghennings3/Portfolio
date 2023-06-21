@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image"
 import Link from "next/link"
 import { NavItem } from "./nav-item"
@@ -15,7 +17,7 @@ const NAV_ITEMS = [
 
 export const Header = () => {
     return(
-        <header className="aboslute top-0 w-full z-10 h-24 flex items-center justify-center">
+        <header className="absolute top-0 w-full z-10 h-24 flex items-center justify-center">
             <div className="container flex items-center justify-between">
                 <Link href="/">
                     <Image 
