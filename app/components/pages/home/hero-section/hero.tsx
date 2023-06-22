@@ -24,7 +24,7 @@ export const HeroSection = () => {
                     <h2 className="text-4xl font-medium mt-2">Gustavo Hennings</h2>
                     <p className="text-gray-400 my-6 text-sm sm:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti ipsa, delectus quidem corporis rerum aliquid aspernatur est nobis vel maxime magni dolorum? Dolor, ullam?</p>
                     <div className="flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]">
-                        {Array.from({length: 5}).map((_, index) => (
+                        {Array.from({length: 7}).map((_, index) => (
                             <TechBadge name='Next.js' />
                         ))}
                     </div>
