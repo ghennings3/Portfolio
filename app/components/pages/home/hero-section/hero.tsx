@@ -4,7 +4,6 @@ import Image from "next/image"
 import { Button } from "../../../button/button"
 import { TechBadge } from "../../../tech-badge"
 import {HiArrowNarrowRight} from 'react-icons/hi'
-import {IoLogoGithub, IoLogoLinkedin} from 'react-icons/io'
 import { HomePageInfo } from "@/app/types/page-info"
 import { RichText } from "@/app/components/rich-text/rich-text"
 import { CMSIcon } from "@/app/components/cms-icon/cms-icon"
@@ -50,7 +49,7 @@ export const HeroSection = ({homeInfo}: HomeSectionProps) => {
                     
                 </div>
                 <div>
-                    <Image width={420} height={404} src={homeInfo.profilePicture.url} alt="Profile pic" className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 shadow-2xl rounded-lg object-cover"/>
+                    <Image width={420} height={404} src={'https://github.com/ghennings3.png'} alt="Profile pic" className="w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 shadow-2xl rounded-lg object-cover"/>
                 </div>
             </div>
         </section>
