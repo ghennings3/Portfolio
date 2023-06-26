@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-gray-900 text-gray-100
+    @apply bg-slate-900 text-gray-100
   }
 }
 
@@ -17,11 +17,11 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: #374151;
+  background: #2d3a4e;
   border-radius: 5px;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #10b981;
+  background-color: #0284c7;
   border-radius: 14px;
 }

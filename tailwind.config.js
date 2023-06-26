@@ -15,9 +15,10 @@ module.exports = {
       },
       fontFamily: {
         mono: ['var(--font-plex-mono)', 'monospace'],
+        saira: ['var(--saira)', 'sans-serif'],
       },
       boxShadow: {
-        button: '0px 0px 68px 7px rgba(5, 150, 105, 0.4)',
+        button: '0px 0px 68px 7px rgba(2, 132, 199, 0.4)',
       },
     },
   },

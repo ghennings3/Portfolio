@@ -41,9 +41,9 @@ export const ContactForm = () => {
                     whileInView={{opacity: 1, y: 0}}
                     exit= {{opacity: 0, y: 50}}
                 >
-                    <input type="text" placeholder="Nome" className=" w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-emerald-600" {...register('name')} />
-                    <input type="text" placeholder="E-mail" className=" w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-emerald-600" {...register('email')} />
-                    <textarea maxLength={500} placeholder="Mensagem" className="resize-none w-full h-[138px] bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-emerald-600" {...register('message')} />
+                    <input type="text" placeholder="Nome" className=" w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-sky-600" {...register('name')} />
+                    <input type="text" placeholder="E-mail" className=" w-full h-14 bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-sky-600" {...register('email')} />
+                    <textarea maxLength={500} placeholder="Mensagem" className="resize-none w-full h-[138px] bg-gray-800 rounded-lg placeholder:text-gray-400 text-gray-50 p-4 focus:outline-none focus:ring-2 ring-sky-600" {...register('message')} />
                     <Button className="w-max mx-auto mt-6 shadow-button" disabled={isSubmitting}>
                         Enviar mensagem
                         <HiArrowNarrowRight size={18} />

@@ -1,4 +1,4 @@
-import { Inter, IBM_Plex_Mono } from 'next/font/google'
+import { Inter, IBM_Plex_Mono, Saira } from 'next/font/google'
 import './globals.css'
 import { ReactNode } from 'react'
 import { Header } from './components/header'
@@ -17,6 +17,8 @@ export const metadata = {
     }
   ]
 }
+
+
 
 const inter = Inter({
   variable: '--font-inter',
