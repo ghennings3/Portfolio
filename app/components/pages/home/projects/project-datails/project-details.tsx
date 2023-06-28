@@ -24,7 +24,7 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                 transition={{ duration: 0.5 }}
                 className='absolute inset-0 z-[-1]'
                 style={{
-                    background: `url(${project.pageThumbnail.url}) no-repeat center/cover`,
+                    background: `url(${project.thumbnail.url}) no-repeat center/cover`,
                 }}
             />
             <SectionTitle
