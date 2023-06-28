@@ -42,16 +42,16 @@ export const Header = () => {
                         style={{
                             fontSize: "2rem",
                             fontFamily: `${saira}`,
-                            color: "#0ea5e9"
+                            color: "#0ea5e9",
                         }}
                     >
-                                /*
+                        /*
                     </span>
                     <span
                         style={{
                             fontSize: "2rem",
                             fontFamily: `${saira}`,
-                            color: "#fff"
+                            color: "#fff",
                         }}
                     >
                         G.H DEV
@@ -60,7 +60,7 @@ export const Header = () => {
                         style={{
                             fontSize: "2rem",
                             fontFamily: `${saira}`,
-                            color: "#0ea5e9"
+                            color: "#0ea5e9",
                         }}
                     >
                         */

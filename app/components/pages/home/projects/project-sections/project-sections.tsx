@@ -11,10 +11,10 @@ type ProjectSectionsProps = {
 export const ProjectSections = ({ sections }: ProjectSectionsProps) => {
     return (
         <section className='container my-12 md:my-32 flex flex-col gap-8 md:gap-32'>
-            {sections.map(section => (
+            {sections.map((section) => (
                 <motion.div
                     key={section.title}
-                    className="flex flex-col items-center gap-6 md:gap-12"
+                    className='flex flex-col items-center gap-6 md:gap-12'
                     initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: 50 }}

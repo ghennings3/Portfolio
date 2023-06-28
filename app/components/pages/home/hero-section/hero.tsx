@@ -30,12 +30,8 @@ export const HeroSection = ({ homeInfo }: HomeSectionProps) => {
                     exit={{ opacity: 0, x: -100 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <p className='font-mono text-sky-400'>
-                        Olá, meu nome é
-                    </p>
-                    <h2 className='text-4xl font-medium mt-2'>
-                        Gustavo Hennings
-                    </h2>
+                    <p className='font-mono text-sky-400'>Olá, meu nome é</p>
+                    <h2 className='text-4xl font-medium mt-2'>Gustavo Hennings</h2>
                     <div className='text-gray-400 my-6 text-sm sm:text-base'>
                         <RichText content={homeInfo.introduction.raw} />
                     </div>
@@ -64,6 +60,7 @@ export const HeroSection = ({ homeInfo }: HomeSectionProps) => {
                                     href={contact.url}
                                     key={`contact ${index}`}
                                     target='_blank'
+                                    rel="noopener"
                                     className='hover:text-gray-100 transition-colors'
                                 >
                                     <CMSIcon icon={contact.iconSvg} />
@@ -78,13 +75,13 @@ export const HeroSection = ({ homeInfo }: HomeSectionProps) => {
                     whileInView={{ opacity: 1, y: 0, scale: 1 }}
                     exit={{ opacity: 0, y: 200, scale: 0.5 }}
                     transition={{ duration: 0.5 }}
-                    className="origin-center"
+                    className='origin-center'
                 >
                     <Image
                         width={420}
                         height={404}
-                        src={'https://github.com/ghennings3.png'}
-                        alt="Profile pic"
+                        src={"https://github.com/ghennings3.png"}
+                        alt='Profile pic'
                         className='w-[300px] h-[300px] lg:w-[420px] lg:h-[404px] mb-6 lg:mb-0 shadow-2xl rounded-lg object-cover'
                     />
                 </motion.div>

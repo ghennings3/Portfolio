@@ -19,13 +19,15 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
     }
 
     return (
-        <motion.div className='flex gap-6 lg:gap-12 flex-col lg:flex-row'
+        <motion.div
+            className='flex gap-6 lg:gap-12 flex-col lg:flex-row'
             initial={{ opacity: 0, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: 100 }}
             transition={{ duration: 0.5 }}
         >
-            <motion.div className='w-full h-full'
+            <motion.div
+                className='w-full h-full'
                 initial={{ opacity: 0, y: 100, scale: 0.5 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 exit={{ opacity: 0, y: 100, scale: 0.5 }}
@@ -40,7 +42,8 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
                 />
             </motion.div>
             <div>
-                <motion.h3 className='flex items-center gap-3 font-medium text-lg text-gray-50'
+                <motion.h3
+                    className='flex items-center gap-3 font-medium text-lg text-gray-50'
                     {...animateProps}
                     transition={{ duration: 0.7 }}
                 >
@@ -52,7 +55,8 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
                     />
                     {project.title}
                 </motion.h3>
-                <motion.p className='text-gray-400 my-6'
+                <motion.p
+                    className='text-gray-400 my-6'
                     {...animateProps}
                     transition={{ duration: 0.2, delay: 0.3 }}
                 >

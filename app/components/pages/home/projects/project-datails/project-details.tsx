@@ -23,7 +23,9 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                 animate={{ opacity: 0.2, scale: 1 }}
                 transition={{ duration: 0.5 }}
                 className='absolute inset-0 z-[-1]'
-                style={{ background: `url(${project.pageThumbnail.url}) no-repeat center/cover` }}
+                style={{
+                    background: `url(${project.pageThumbnail.url}) no-repeat center/cover`
+                }}
             />
             <SectionTitle
                 subtitle='projetos'
@@ -46,7 +48,8 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                         exit={{ opacity: 0, scale: 0 }}
                         transition={{ duration: 0.3, delay: i * 0.1 }}
                         key={tech.name}
-                        name={tech.name} />
+                        name={tech.name}
+                    />
                 ))
                 }
             </div>
@@ -57,10 +60,7 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                 exit={{ opacity: 0, y: 50 }}
             >
                 {project?.githubUrl && (
-                    <a
-                        href={project.githubUrl}
-                        target='_blank'
-                    >
+                    <a href={project.githubUrl} target='_blank' rel="noopener">
                         <Button className='min-w-[180px]'>
                             <TbBrandGithub size={20} />
                             Repositório
@@ -68,10 +68,8 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                     </a>
                 )}
                 {project?.liveProjectUrl && (
-                    <a
-                        href={project.liveProjectUrl}
-                        target="_blank">
-                        <Button className="min-w-[180px]">
+                    <a href={project.liveProjectUrl} target='_blank' rel="noopener">
+                        <Button className='min-w-[180px]'>
                             <FiGlobe size={20} />
                             Projeto online
                         </Button>

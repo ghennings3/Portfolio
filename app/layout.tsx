@@ -9,12 +9,12 @@ import { Toaster } from "./components/toaster/toaster"
 export const metadata = {
     title: {
         default: "Home",
-        template: "%s | GH Dev"
+        template: "%s | GH Dev",
     },
     icons: [
         {
-            url: "/favicon.png"
-        }
+            url: "/favicon.png",
+        },
     ],
     description: "Portofolio Desenvolvedor Gustavo Hennings",
 }

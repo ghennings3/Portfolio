@@ -9,10 +9,8 @@ export const RichText = ({ ...props }: RichTextProps) => {
             {...props}
             renderers={{
                 bold: ({ children }) => (
-                    <b className='text-gray-50 font-medium'>
-                        {children}
-                    </b>
-                )
+                    <b className='text-gray-50 font-medium'>{children}</b>
+                ),
             }}
         />
     )

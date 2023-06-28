@@ -13,7 +13,8 @@ export const PageIntro = () => {
                 title='Meus Projetos'
                 className='text-center items-center [&>h3]:text-4xl'
             />
-            <motion.div className='flex flex-col items-center'
+            <motion.div
+                className='flex flex-col items-center'
                 initial={{ opacity: 0, y: 100 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 100 }}
