@@ -22,18 +22,18 @@ export async function POST(request: Request) {
                     color: 0x4983f5,
                     fields: [
                         {
-                           name: "Nome",
-                           value: name,
-                           inline: true,
+                            name: "Nome",
+                            value: name,
+                            inline: true,
                         },
                         {
-                           name: "E-mail",
-                           value: email,
-                           inline: true,
+                            name: "E-mail",
+                            value: email,
+                            inline: true,
                         },
                         {
-                           name: "Mensagem",
-                           value: message,
+                            name: "Mensagem",
+                            value: message,
                         },
                     ],
                 },
