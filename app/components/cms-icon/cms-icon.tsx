@@ -3,7 +3,7 @@ type CMSIconProps = {
 }
 
 export const CMSIcon = ({ icon }: CMSIconProps) => {
-    return(
+    return (
         <div
             dangerouslySetInnerHTML={{
                 __html: icon,
