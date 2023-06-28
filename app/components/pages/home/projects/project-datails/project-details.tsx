@@ -24,7 +24,7 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                 transition={{ duration: 0.5 }}
                 className='absolute inset-0 z-[-1]'
                 style={{
-                    background: `url(${project.pageThumbnail.url}) no-repeat center/cover`
+                    background: `url(${project.pageThumbnail.url}) no-repeat center/cover`,
                 }}
             />
             <SectionTitle
@@ -49,8 +49,7 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                         transition={{ duration: 0.3, delay: i * 0.1 }}
                         key={tech.name}
                         name={tech.name}
-                    />
-                ))
+                    />))
                 }
             </div>
             <motion.div
@@ -60,7 +59,7 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                 exit={{ opacity: 0, y: 50 }}
             >
                 {project?.githubUrl && (
-                    <a href={project.githubUrl} target='_blank' rel="noopener">
+                    <a href={project.githubUrl} target='_blank' rel='noopener'>
                         <Button className='min-w-[180px]'>
                             <TbBrandGithub size={20} />
                             Repositório
@@ -68,7 +67,7 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                     </a>
                 )}
                 {project?.liveProjectUrl && (
-                    <a href={project.liveProjectUrl} target='_blank' rel="noopener">
+                    <a href={project.liveProjectUrl} target='_blank' rel='noopener'>
                         <Button className='min-w-[180px]'>
                             <FiGlobe size={20} />
                             Projeto online
@@ -76,8 +75,7 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                     </a>
                 )}
             </motion.div>
-            <Link
-                href='/projects'>
+            <Link href='/projects'>
                 <HiArrowNarrowLeft />
                 Voltar para projetos
             </Link>

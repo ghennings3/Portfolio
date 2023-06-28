@@ -31,13 +31,16 @@ export const HeroSection = ({ homeInfo }: HomeSectionProps) => {
                     transition={{ duration: 0.5 }}
                 >
                     <p className='font-mono text-sky-400'>Olá, meu nome é</p>
-                    <h2 className='text-4xl font-medium mt-2'>Gustavo Hennings</h2>
+                    <h2 className='text-4xl font-medium mt-2'>
+                        Gustavo Hennings
+                    </h2>
                     <div className='text-gray-400 my-6 text-sm sm:text-base'>
                         <RichText content={homeInfo.introduction.raw} />
                     </div>
                     <div className='flex flex-wrap gap-x-2 gap-y-3 lg:max-w-[340px]'>
                         {homeInfo.technologies.map((tech, i) => (
-                            <TechBadge name={tech.name}
+                            <TechBadge
+                                name={tech.name}
                                 key={`intro-tech-${tech.name}`}
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
@@ -60,7 +63,7 @@ export const HeroSection = ({ homeInfo }: HomeSectionProps) => {
                                     href={contact.url}
                                     key={`contact ${index}`}
                                     target='_blank'
-                                    rel="noopener"
+                                    rel='noopener'
                                     className='hover:text-gray-100 transition-colors'
                                 >
                                     <CMSIcon icon={contact.iconSvg} />
@@ -68,7 +71,6 @@ export const HeroSection = ({ homeInfo }: HomeSectionProps) => {
                             ))}
                         </div>
                     </div>
-
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, y: 200, scale: 0.5 }}
