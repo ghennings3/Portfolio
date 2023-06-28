@@ -10,7 +10,7 @@ type ProjectSectionsProps = {
 
 export const ProjectSections = ({ sections }: ProjectSectionsProps) => {
     return (
-        <section className="container my-12 md:my-32 flex flex-col gap-8 md:gap-32">
+        <section className='container my-12 md:my-32 flex flex-col gap-8 md:gap-32'>
             {sections.map(section => (
                 <motion.div
                     key={section.title}
@@ -20,7 +20,7 @@ export const ProjectSections = ({ sections }: ProjectSectionsProps) => {
                     exit={{ opacity: 0, y: 50 }}
                     transition={{ duration: 0.5 }}
                 >
-                    <h2 className="text-2xl md:text-3xl font-medium text-gray-300">
+                    <h2 className='text-2xl md:text-3xl font-medium text-gray-300'>
                         {section.title}
                     </h2>
                     <Image
@@ -29,7 +29,8 @@ export const ProjectSections = ({ sections }: ProjectSectionsProps) => {
                         unoptimized
                         width={1080}
                         height={672}
-                        className="w-full aspect-auto rounded-lg object-cover" />
+                        className='w-full aspect-auto rounded-lg object-cover'
+                    />
                 </motion.div>
             ))}
         </section>

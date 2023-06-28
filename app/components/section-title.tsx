@@ -1,7 +1,7 @@
 "use client"
 
 import { cn } from "./lib/utils"
-import { motion } from 'framer-motion'
+import { motion } from "framer-motion"
 
 type SectionTitleProps = {
     title: string
@@ -12,7 +12,7 @@ type SectionTitleProps = {
 export const SectionTitle = ({
     title,
     subtitle,
-    className
+    className,
 }: SectionTitleProps) => {
     const animateProps = {
         initial: { opacity: 0, x: -100 },
@@ -20,14 +20,16 @@ export const SectionTitle = ({
         exit: { opacity: 0, x: -100 },
     }
     return (
-        <div className={cn('flex flex-col gap-4', className)}>
-            <motion.span className="font-mono text-sm text-sky-400"
+        <div className={cn("flex flex-col gap-4", className)}>
+            <motion.span
+                className='font-mono text-sm text-sky-400'
                 {...animateProps}
                 transition={{ duration: 0.5 }}
             >
                 {`../${subtitle}`}
             </motion.span>
-            <motion.h3 className="text-3xl font-medium"
+            <motion.h3
+                className='text-3xl font-medium'
                 {...animateProps}
                 transition={{ duration: 0.5, delay: 0.2 }}
             >

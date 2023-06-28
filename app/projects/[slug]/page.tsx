@@ -2,15 +2,13 @@ import { ProjectDetails } from "@/app/components/pages/home/projects/project-dat
 import { ProjectSections } from "@/app/components/pages/home/projects/project-sections/project-sections"
 import { ProjectPageData, ProjectsPageStaticData } from "@/app/types/page-info"
 import { fetchHygraphQuery } from "@/app/utils/fetch-hygraph-query"
-import { Metadata } from "next";
+import { Metadata } from "next"
 
 type ProjectProps = {
     params: {
         slug: string
     }
 }
-
-
 
 const getProjectDetails = async (slug: string): Promise<ProjectPageData> => {
     const query = `
@@ -70,7 +68,7 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({
-    params: { slug }
+    params: { slug },
 }: ProjectProps): Promise<Metadata> {
     const data = await getProjectDetails(slug)
     const project = data.project
@@ -83,8 +81,8 @@ export async function generateMetadata({
                     url: project.thumbnail.url,
                     width: 1200,
                     height: 630,
-                }
-            ]
-        }
+                },
+            ],
+        },
     }
 }
