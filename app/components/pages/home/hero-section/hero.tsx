@@ -63,7 +63,7 @@ export const HeroSection = ({ homeInfo }: HomeSectionProps) => {
                                     href={contact.url}
                                     key={`contact ${index}`}
                                     target='_blank'
-                                    rel='noopener'
+                                    rel='noreferrer'
                                     className='hover:text-gray-100 transition-colors'
                                 >
                                     <CMSIcon icon={contact.iconSvg} />

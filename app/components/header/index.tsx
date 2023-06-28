@@ -39,7 +39,7 @@ export const Header = () => {
                             color: "#0ea5e9",
                         }}
                     >
-                        /*
+                        &#60;
                     </span>
                     <span
                         style={{
@@ -57,7 +57,7 @@ export const Header = () => {
                             color: "#0ea5e9",
                         }}
                     >
-                        */
+                        &#62;
                     </span>
                 </Link>
                 <nav className='flex items-center gap-4 sm:gap-10'>

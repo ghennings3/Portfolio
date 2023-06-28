@@ -49,8 +49,8 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                         transition={{ duration: 0.3, delay: i * 0.1 }}
                         key={tech.name}
                         name={tech.name}
-                    />))
-                }
+                    />
+                ))}
             </div>
             <motion.div
                 className='my-6 sm:my-12 flex items-center gap-2 sm:gap-4 flex-col sm:flex-row'
@@ -59,7 +59,11 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                 exit={{ opacity: 0, y: 50 }}
             >
                 {project?.githubUrl && (
-                    <a href={project.githubUrl} target='_blank' rel='noopener'>
+                    <a
+                        href={project.githubUrl}
+                        target='_blank'
+                        rel='noreferrer'
+                    >
                         <Button className='min-w-[180px]'>
                             <TbBrandGithub size={20} />
                             Repositório
@@ -67,7 +71,11 @@ export const ProjectDetails = ({ project }: ProjectDetailsProps) => {
                     </a>
                 )}
                 {project?.liveProjectUrl && (
-                    <a href={project.liveProjectUrl} target='_blank' rel='noopener'>
+                    <a
+                        href={project.liveProjectUrl}
+                        target='_blank'
+                        rel='noreferrer'
+                    >
                         <Button className='min-w-[180px]'>
                             <FiGlobe size={20} />
                             Projeto online
