@@ -1,3 +1,18 @@
-<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M0 9.75001L5.5 0.5H15.5L10 9.75001H0ZM10 9.75001L4.5 19.5H14.5L20 9.74999L10 9.75001Z" fill="#059669"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="32" height="32" viewBox="0 0 32 32" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 16 16)" id="a726766a-9eb1-40a5-8685-d28b2ee905b8"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-16" y="-16" rx="0" ry="0" width="32" height="32" />
+</g>
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="6202f9ca-b82b-437b-9bf0-dbf083e7b837"  >
+</g>
+<g transform="matrix(0.03 0 0 0.03 32 32)" id="524dc93a-43c5-4023-83e5-5be1b946e537"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(5,150,105); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-10, -10)" d="M 0 9.75001 L 5.5 0.5 L 15.5 0.5 L 10 9.75001 L 0 9.75001 Z M 10 9.75001 L 4.5 19.5 L 14.5 19.5 L 20 9.74999 L 10 9.75001 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 16 16)" id="357f29fb-b7fa-4f80-83ff-15f3f3bcde20"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(25,84,226); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-10, -10)" d="M 0 9.75001 L 5.5 0.5 L 15.5 0.5 L 10 9.75001 L 0 9.75001 Z M 10 9.75001 L 4.5 19.5 L 14.5 19.5 L 20 9.74999 L 10 9.75001 Z" stroke-linecap="round" />
+</g>
 </svg>
