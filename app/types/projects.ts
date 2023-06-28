@@ -1,4 +1,4 @@
-import type {RichTextContent} from '@graphcms/rich-text-types'
+import type { RichTextContent } from '@graphcms/rich-text-types'
 
 export type KnownTech = {
     iconSvg: string
@@ -8,7 +8,7 @@ export type KnownTech = {
 
 export type ProjectSection = {
     title: string
-    image:{
+    image: {
         url: string
     }
 }

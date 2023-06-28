@@ -2,11 +2,11 @@ type CMSIconProps = {
     icon: string
 }
 
-export const CMSIcon = ({icon}: CMSIconProps) => {
+export const CMSIcon = ({ icon }: CMSIconProps) => {
     return(
-        <div 
+        <div
             dangerouslySetInnerHTML={{
-                __html: icon
+                __html: icon,
             }}
         />
     )

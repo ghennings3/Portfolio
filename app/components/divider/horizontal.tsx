@@ -4,8 +4,10 @@ type HorizontalDividerProps = {
     className?: string
 }
 
-export const HorizontaDivider = ({className}: HorizontalDividerProps) => {
-    return(
-        <div className={cn('w-full my-8 border-b border-b-gray-800', className)}></div>
+export const HorizontaDivider = ({ className }: HorizontalDividerProps) => {
+    return (
+        <div
+            className={cn('w-full my-8 border-b border-b-gray-800', className)}>
+        </div>
     )
 }
