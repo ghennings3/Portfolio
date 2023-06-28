@@ -1,5 +1,5 @@
-import axios from "axios"
-import { NextResponse } from "next/server"
+import axios from 'axios'
+import { NextResponse } from 'next/server'
 import { z } from "zod"
 
 const bodySchema = z.object({
