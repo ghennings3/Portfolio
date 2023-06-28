@@ -45,7 +45,7 @@ export const ContactForm = () => {
             <div className='w-full max-w-[420px] mx auto'>
                 <SectionTitle
                     subtitle='Contato'
-                    title='Vamos trabalhar juntos? Entre em contato" className="items-center text-center'
+                    title='Vamos trabalhar juntos? Entre em contato' className='items-center text-center'
                 />
                 <motion.form
                     onSubmit={handleSubmit(onSubmit)}
