@@ -5,7 +5,9 @@ const nextConfig = {
   },
   images: {
     domains: ['media.graphassets.com', 'github.com'],
+    unoptimized: true,
   },
+  output: 'export',
 }
 
 module.exports = nextConfig
