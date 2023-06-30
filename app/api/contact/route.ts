@@ -51,4 +51,4 @@ export async function POST(request: Request) {
     }
 }
 
-export const dynamic = "force-static"
+export const dynamic = "static"
